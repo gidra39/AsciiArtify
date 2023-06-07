@@ -1,5 +1,7 @@
 # AsciiArtify
-The demo consits of nginx, Docker, k3d to host an index.html with "Hello World".
+The demo consits of nginx, Docker, k3d to host an index.html with "Hello from Pod!".
+![demo](https://github.com/gidra39/AsciiArtify/assets/95176865/bc183010-0a56-4321-883d-70d1a402f345)
+
 
 # Installation (for Ubuntu)
 Download and install Docker, k3d
