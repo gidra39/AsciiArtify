@@ -1,5 +1,5 @@
 # AsciiArtify
-As 
+The demo consits of nginx, Docker, k3d to host an index.html with "Hello World".
 
 # Installation (for Ubuntu)
 Download and install Docker, k3d
@@ -61,7 +61,7 @@ $ sudo nano index.html
 ```
 Config:
 ```bash
-"Hello from Pod!"
+Hello World!
 ```
 Create a Dockerfile
 ```bash
@@ -89,8 +89,8 @@ apiVersion: v1
 kind: Pod
 metadata:
   labels:
-    run: <your-app-name>
-  name: <your-app-name>
+    run: app
+  name: app-<your-app-name>
 spec:
   containers:
   - image: dev:5000/<your-app-name>:v1
@@ -111,7 +111,7 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    run: <your-app-name>
+    run: app
   name: <your-app-name>-nodeport
 spec:
   ports:
