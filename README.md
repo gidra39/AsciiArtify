@@ -3,7 +3,7 @@ The demo consits of nginx, Docker, k3d to host an index.html with "Hello from Po
 ![demo](https://github.com/gidra39/AsciiArtify/assets/95176865/bc183010-0a56-4321-883d-70d1a402f345)
 
 # Important Notice (for WSL Users)
-WSL version of your distro must be 2 or higher. If you are experiencing problems with getting k3d working - check your WSL version
+WSL version of your distro must be 2 or higher. If you are experiencing problems with getting k3d working - check your WSL version via PowerShell
 
 ```bash
 wsl --list --verbose
