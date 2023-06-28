@@ -1,4 +1,4 @@
 
 Example of app usage:
-https://github.com/gidra39/AsciiArtify/assets/95176865/f9e48ab5-c8d5-4b14-b00a-bafc6c000c63
 
+![Untitled (3)](https://github.com/gidra39/AsciiArtify/assets/95176865/e60a61e0-e83c-4da5-84a7-5d342f9f4aef)
